@@ -1,60 +1,92 @@
-# Contact Analytics & Event Tracking Platform
+# Contact Analytics Platform
 
-A Django-based platform that syncs Google contacts and tracks user events to provide analytics insights.
-The system allows users to manage contacts, record events, and analyze interaction patterns in a structured dashboard.
+A **Django-based Contact Analytics & Event Tracking Platform** that allows users to manage contacts, track interaction events, and analyze engagement patterns.
+The system integrates external APIs and records events using a scalable backend architecture.
 
-## 🚀 Features
+---
 
-* Google Contacts Integration using Google People API
-* Contact management system
-* Event tracking and analytics
-* Secure authentication with Google OAuth
-* Event logging using Django signals
-* Clean UI built with Tailwind CSS
-* Scalable backend using PostgreSQL
+# 🚀 Features
 
-## 🛠 Tech Stack
+• Contact Management System
+• Event Tracking Engine
+• Dashboard Analytics
+• Google Contacts Integration (Google People API)
+• Secure Authentication
+• Modular Django Architecture
+• Tailwind CSS UI
+
+---
+
+# 🛠 Tech Stack
 
 Backend
-
-* Python
-* Django
+• Python
+• Django
 
 Database
-
-* PostgreSQL
-* MySQL (optional)
+• PostgreSQL
 
 Frontend
+• HTML
+• Tailwind CSS
 
-* HTML
-* Tailwind CSS
-
-APIs & Integrations
-
-* Google OAuth
-* Google People API
-* PayPal API
+APIs
+• Google OAuth
+• Google People API
 
 Tools
+• Git
+• GitHub
+• Docker
 
-* Git & GitHub
-* Docker
+---
 
-## 📂 Project Structure
+# 📁 Project Structure
 
-Contact-Analytics-Platform
+src/
 
-```
-contacts/        # Contact management module
-events/          # Event tracking system
-templates/       # HTML templates
-static/          # CSS / JS / images
-manage.py
-requirements.txt
-```
+cfehome/ → Django project configuration
+contacts/ → Contact management system
+dashboard/ → Dashboard and analytics
+events/ → Event tracking module
+helpers/ → Utility services
+templates/ → HTML templates
+mystaticfiles/ → Static assets (CSS, JS, images)
+manage.py → Django entry point
 
-## ⚙️ Installation
+---
+
+# 🏗 System Architecture
+
+User Request
+↓
+Django Views
+↓
+Event Tracking System
+↓
+PostgreSQL Database
+↓
+Analytics Dashboard
+
+---
+
+# 📸 Application Preview
+
+Dashboard
+
+Add screenshot here
+
+Contacts Page
+
+Add screenshot here
+
+Event Tracking
+
+Add screenshot here
+
+---
+
+# ⚙️ Installation
 
 Clone the repository
 
@@ -71,35 +103,52 @@ python -m venv venv
 Activate environment
 
 Windows
+
 venv\Scripts\activate
 
 Install dependencies
 
-pip install -r requirements.txt
+pip install -r requirements.prod.txt
 
 Run migrations
 
-python manage.py migrate
+python src/manage.py migrate
 
-Start server
+Run the server
 
-python manage.py runserver
+python src/manage.py runserver
 
 Open browser
 
 http://127.0.0.1:8000
 
-## 📊 Future Improvements
+---
 
-* Dashboard analytics visualization
-* Contact interaction insights
-* Export reports
-* Real-time event processing
+# 📊 Example Event Tracking
 
-## 👨‍💻 Author
+POST /events/track
+
+{
+"contact_id": 1,
+"event_type": "email_open",
+"timestamp": "2026-03-15"
+}
+
+---
+
+# 📌 Future Improvements
+
+• Advanced analytics dashboard
+• Real-time event processing
+• Graph visualization of contact engagement
+• API support for third-party integrations
+
+---
+
+# 👨‍💻 Author
 
 Aditya Mohan Jha
-Computer Science Engineering Student
+B.E. Computer Science Engineering
 Don Bosco Institute of Technology, Bengaluru
 
 GitHub
