@@ -83,7 +83,7 @@ Analytics Dashboard
 
 Event Tracking
 
-![Events](assets/events.png)
+![Events](assets/event.png)
 
 ---
 
