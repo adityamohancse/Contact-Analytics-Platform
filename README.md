@@ -1,72 +1,73 @@
-# Contact Analytics Platform
+# 📊 Contact Analytics Platform
 
 A **Django-based Contact Analytics & Event Tracking Platform** that allows users to manage contacts, track interaction events, and analyze engagement patterns.
+
 The system integrates external APIs and records events using a scalable backend architecture.
 
 ---
 
 # 🚀 Features
 
-• Contact Management System
-• Event Tracking Engine
-• Dashboard Analytics
-• Google Contacts Integration (Google People API)
-• Secure Authentication
-• Modular Django Architecture
-• Tailwind CSS UI
+* Contact Management System
+* Event Tracking Engine
+* Dashboard Analytics
+* Google Contacts Integration
+* Secure Authentication
+* Tailwind CSS UI
+* Modular Django Architecture
 
 ---
 
 # 🛠 Tech Stack
 
 Backend
-• Python
-• Django
+Python, Django
 
 Database
-• PostgreSQL
+PostgreSQL
 
 Frontend
-• HTML
-• Tailwind CSS
+HTML, Tailwind CSS
 
 APIs
-• Google OAuth
-• Google People API
+Google OAuth
+Google People API
 
 Tools
-• Git
-• GitHub
-• Docker
+Git, GitHub, Docker
 
 ---
 
 # 📁 Project Structure
 
+```
 src/
-
-cfehome/ → Django project configuration
-contacts/ → Contact management system
-dashboard/ → Dashboard and analytics
-events/ → Event tracking module
-helpers/ → Utility services
-templates/ → HTML templates
-mystaticfiles/ → Static assets (CSS, JS, images)
-manage.py → Django entry point
+│
+├── cfehome/        # Django project configuration
+├── contacts/       # Contact management system
+├── dashboard/      # Analytics dashboard
+├── events/         # Event tracking module
+├── helpers/        # Utility services
+├── templates/      # HTML templates
+├── mystaticfiles/  # Static assets
+└── manage.py
+```
 
 ---
 
 # 🏗 System Architecture
 
+```
 User Request
-↓
+      ↓
 Django Views
-↓
+      ↓
 Event Tracking System
-↓
+      ↓
 PostgreSQL Database
-↓
+      ↓
 Analytics Dashboard
+```
 
 ---
 
@@ -74,15 +75,15 @@ Analytics Dashboard
 
 Dashboard
 
-Add screenshot here
+![Dashboard](assets/dashboard.png)
 
 Contacts Page
 
-Add screenshot here
+![Contacts](assets/contacts.png)
 
 Event Tracking
 
-Add screenshot here
+![Events](assets/events.png)
 
 ---
 
@@ -103,7 +104,6 @@ python -m venv venv
 Activate environment
 
 Windows
-
 venv\Scripts\activate
 
 Install dependencies
@@ -114,7 +114,7 @@ Run migrations
 
 python src/manage.py migrate
 
-Run the server
+Start server
 
 python src/manage.py runserver
 
@@ -124,7 +124,7 @@ http://127.0.0.1:8000
 
 ---
 
-# 📊 Example Event Tracking
+# 📊 Example Event Tracking API
 
 POST /events/track
 
@@ -138,17 +138,17 @@ POST /events/track
 
 # 📌 Future Improvements
 
-• Advanced analytics dashboard
-• Real-time event processing
-• Graph visualization of contact engagement
-• API support for third-party integrations
+* Advanced analytics dashboard
+* Real-time event tracking
+* Graph visualization
+* REST API support
 
 ---
 
 # 👨‍💻 Author
 
 Aditya Mohan Jha
-B.E. Computer Science Engineering
+B.E Computer Science Engineering
 Don Bosco Institute of Technology, Bengaluru
 
 GitHub
