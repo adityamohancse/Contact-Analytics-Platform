@@ -73,13 +73,13 @@ Analytics Dashboard
 
 # 📸 Application Preview
 
-Dashboard
+# 📸 Application Preview
 
-![Dashboard](assets/dashboard.png)
+### Dashboard
+![Dashboard](src/assets/dashboard.png)
 
-Contacts Page
-
-![Contacts](assets/contacts.png)
+### Contacts Page
+![Contacts](src/assets/contacts.png)
 
 Event Tracking
 
